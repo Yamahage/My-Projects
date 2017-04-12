@@ -1,0 +1,33 @@
+h1 {
+font-size: 75px;
+text-transform: uppercase;
+}
+
+h2, h3, h4 {
+font-size: 40px;
+}
+
+body {
+font-family: Ubuntu, sans-serif;
+font-size: 20px;
+color: black;
+background: LightSteelBlue;
+}
+
+body {
+margin-left: 8%;
+margin-right: 14%;
+}
+
+img {
+border-style: solid;
+margin: 2%;
+}
+
+a:link {
+  color:blue;
+}
+
+a:visited {
+  color:purple;
+}

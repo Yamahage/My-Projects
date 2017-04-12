@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Picross Instructions</title>
+  <link href="instructions.css" rel="stylesheet"></link>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+  <h1>~Picross~</h1>
+  <h2>What is Picross?</h2>
+  <p>Picross or <strong>Pic</strong>ture <strong>Cross</strong>word is a type of <a href="https://en.wikipedia.org/wiki/Nonogram" target="_blank">nonogram</a> or picture logic puzzle (you could almost think of it as 
+  a cross between Sudoku and Minesweeper).
+    The game is set up in a pixel grid where you fill in the boxes with specific colors to complete the picture. Next to the cells are the specific rules on where colors (or blank spaces) must go.</p>
+  <h3>How to Play</h3>
+  <p>Let's take a look at an empty 5x5 grid example to learn how to play:</p>
+  <img src=pictures/Picross5x5example.png>
+  <p>Right off we can see the numbers in the rows and columns</p>
+  <ul>
+    <li>Single numbers represent how many consecutive blocks must be filled in. Hint: easy columns and rows are ones with zeros or the maximum amount of boxes in that row or column. For example if the 
+    board is 5x5, then it is safe to fill in all 5 squares in that section.</li><br>
+    <li>Double numbers represent how many blocks are filled in, according to the first number, then at least one black space, then a group of corresponding consecutive spaces based on the second number. 
+    For example on a 5x5 grid it is possible to have a 3 and a 1.  This would require 3 consecutive spaces to be filled in that row/column then a blank space, then 1 square filled.</li><br>
+    <li>When a puzzle uses multiple colors we pay attention to the color of the number indicating how many of that specific color are consecutive.</li>
+  </ul>
+  <p>Like in Minesweeper, "marks" can help us know where we can and cannot place colors. Using a mark like an "X" we can place it in somewhere that must remain blank. This is very useful when zeros are 
+  in play; as they can eliminate squares easily.</p>
+  <img src=pictures/Picross5x5step1.png>
+  <p>Completing large numbers first can help us to solve the puzzle efficiently. Look to see if we have any large single numbers in any columns or rows.</p>
+  <img src=pictures/Picross5x5step2.png>
+  <p>Next we can fill in lower numbers like we see in the next picture.  There are only 3 spaces left after we figured out empty cells.</p>
+  <img src=pictures/Picross5x5step3.png>
+  <p>We can finally finish the puzzle by evaluating our empty and finished columns and rows.</p>
+  <img src=pictures/Picross5x5step4.png>
+  <p>Concerning larger puzzles there are additional techniques to find out with certainty where we can fill in colors and know where blanks are. For additional <a href="https://en.wikipedia.org/wiki/
+  Nonogram#Solution_techniques" target="_blank"> solution techniques please click here.</a></p>
+  <h4>Let's Practice</h4>
+  <p>Link to the beginning practice puzzle coming Soon.</p>
+</body>
+</html>
